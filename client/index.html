@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root">
+      <header><h1>Validar Empresa</h1></header>
+      <main>
+        <h3 class="descricao">
+          Este projeto tem como objetivo auxiliar na validação de dados sobre
+          empresas, com base em seu CNPJ. A pesquisa indica principalmente a
+          situação da empresa, confirmando se ela está ativa, juntamente com
+          dados sobre o endereço da sede e email informado.
+        </h3>
+        <div class="consultar">
+          <p class="erro"></p>
+          <div class="inputArea">
+            <input type="text" id="inputCnpj" placeholder="Digite o CNPJ" />
+            <button id="submit">Consultar</button>
+          </div>
+          <div class="info">
+            <span class="propriedade">
+              <label for="name">Nome: </label>
+              <div class="name"></div>
+            </span>
+
+            <span class="propriedade">
+              <label for="alias">Nome fantasia: </label>
+              <div class="alias"></div>
+            </span>
+
+            <span class="propriedade">
+              <label for="city">Cidade: </label>
+              <div class="city"></div
+            ></span>
+
+            <span class="propriedade">
+              <label for="street">Rua: </label>
+              <div class="street"></div
+            ></span>
+
+            <span class="propriedade">
+              <label for="number">N°: </label>
+              <div class="number"></div
+            ></span>
+
+            <span class="propriedade">
+              <label for="state">Estado: </label>
+              <div class="state"></div
+            ></span>
+
+            <span class="propriedade">
+              <label for="capital">CEP: </label>
+              <div class="capital"></div
+            ></span>
+
+            <span class="propriedade">
+              <label for="email">Email: </label>
+              <div class="email"></div>
+            </span>
+
+            <span class="propriedade">
+              <label for="phone">Telefone: </label>
+              <div class="phone"></div>
+            </span>
+
+            <span class="propriedade">
+              <label for="status">Status: </label>
+              <div class="status"></div>
+            </span>
+          </div>
+        </div>
+
+        <button id="mostrarConsultas">Visualizar consultas anteriores</button>
+
+        <div class="consultasContainer" hidden>
+          <h3 class="tituloAnteriores">Consultas anteriores:</h3>
+          <div class="consultas"></div>
+        </div>
+      </main>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+button {
+  outline: none;
+  padding: 0.25rem;
+  border: none;
+}
+
+button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1250px;
+  width: 100%;
+}
+
+.erro {
+  color: red;
+}
+
+/* header */
+header {
+  margin-bottom: 1rem;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao {
+  margin-bottom: 3rem;
+}
+
+.consultar {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 40rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.inputArea {
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  height: 2rem;
+}
+
+#inputCnpj {
+  width: calc(60% - 0.25rem);
+}
+
+#submit {
+  width: calc(40% - 0.25rem);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.propriedade {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.propriedade label {
+  width: calc(35% - 0.25rem);
+}
+
+.propriedade div {
+  width: calc(65% - 0.25rem);
+}
+
+/* consultas anteriores */
+
+#mostrarConsultas {
+  max-width: 20rem;
+  align-self: center;
+}
+
+.tituloAnteriores {
+  margin-bottom: 1rem;
+}
+
+.consultasContainer {
+  align-self: center;
+  max-width: 40rem;
+  width: 100%;
+}
+.consulta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  background-color: rgb(212, 212, 212);
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
